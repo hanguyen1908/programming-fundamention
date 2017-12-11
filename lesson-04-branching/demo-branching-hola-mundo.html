@@ -6,9 +6,22 @@
   <script src='../lesson-03-functions/assert.js'></script>
   <script>
     // your scripts here
-    function greeting () {
-      
+    function greeting (language) {
+        if (language === 'es') {
+            return 'Hola Mundo!'
+        }
+        else if (language === 'il') {
+            return '!שלום עולם'
+        }
+        else if (language === 'se') {
+            return 'Hej världen!'
+        }
+        else {
+            return 'Hello World!'
+        }
     }
+
+
   </script>
 </head>
 <body>
